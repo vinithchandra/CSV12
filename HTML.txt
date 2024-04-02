@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .post {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .post-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .post-meta {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .post-content {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <main>
+        <article class="post">
+            <h2 class="post-title">First Post</h2>
+            <div class="post-meta">Posted on January 1, 2024</div>
+            <div class="post-content">
+                <p>This is my first blog post. Welcome to my blog!</p>
+            </div>
+        </article>
+        <article class="post">
+            <h2 class="post-title">Second Post</h2>
+            <div class="post-meta">Posted on January 5, 2024</div>
+            <div class="post-content">
+                <p>This is my second blog post. Stay tuned for more!</p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+</body>
+</html>
